@@ -1,0 +1,21 @@
+<bgp xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-bgp-cfg">
+ <instance>
+   <instance-as>
+     <four-byte-as>
+       <default-vrf>
+         <bgp-entity>
+           <neighbor-groups>
+             <neighbor-group>  
+               <neighbor-group-afs>
+                 <neighbor-group-af>
+                   <route-policy-in></route-policy-in>
+                 </neighbor-group-af>
+               </neighbor-group-afs>
+             </neighbor-group>
+           </neighbor-groups>
+         </bgp-entity>
+       </default-vrf>
+     </four-byte-as>
+   </instance-as>
+ </instance>
+</bgp>
